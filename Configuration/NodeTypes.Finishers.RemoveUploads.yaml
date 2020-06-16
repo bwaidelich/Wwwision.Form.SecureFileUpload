@@ -1,0 +1,6 @@
+'Wwwision.Form.SecureFileUpload:RemoveUploadsFinisher':
+  superTypes:
+    'Neos.Form.Builder:AbstractFinisher': true
+  ui:
+    label: 'Remove Uploads Finisher'
+    icon: 'icon-trash'

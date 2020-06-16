@@ -1,0 +1,7 @@
+Neos:
+  Flow:
+    resource:
+      collections:
+        'formUploads':
+          storage: 'defaultPersistentResourcesStorage'
+          target: 'protectedResourcesTarget'

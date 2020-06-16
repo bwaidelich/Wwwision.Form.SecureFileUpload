@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "wwwision/form-securefileupload",
+    "require": {
+        "neos/form": "^4.3",
+        "wwwision/privateresources": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwwision\\Form\\SecureFileUpload\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Wwwision.Form.SecureFileUpload"
+        }
+    }
+}

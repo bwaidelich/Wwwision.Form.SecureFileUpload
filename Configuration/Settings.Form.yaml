@@ -1,0 +1,13 @@
+Neos:
+  Form:
+    presets:
+      'default':
+        formElementTypes:
+          'Neos.Form:FileUpload':
+            properties:
+              # use our custom resource collection for all "FileUpload" form elements
+              resourceCollection: 'formUploads'
+        finisherPresets:
+          # A finisher that deletes all uploaded files
+          'Wwwision.Form.SecureFileUpload:Finisher.RemoveUploads':
+            implementationClassName: 'Wwwision\Form\SecureFileUpload\Finisher\RemoveUploadsFinisher'

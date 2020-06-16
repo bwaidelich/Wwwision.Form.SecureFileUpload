@@ -1,0 +1,3 @@
+prototype(Wwwision.Form.SecureFileUpload:RemoveUploadsFinisher.Definition) < prototype(Neos.Form.Builder:Finisher.Definition) {
+    formElementType = 'Wwwision.Form.SecureFileUpload:Finisher.RemoveUploads'
+}
