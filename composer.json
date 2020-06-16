@@ -1,7 +1,8 @@
 {
-    "description": "",
+    "description": "Flow package with examples and helpers to implement secure form uploads",
     "type": "neos-package",
     "name": "wwwision/form-securefileupload",
+    "license": "MIT",
     "require": {
         "neos/form": "^4.3",
         "wwwision/privateresources": "^3.3"
