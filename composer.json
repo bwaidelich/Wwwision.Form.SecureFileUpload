@@ -4,8 +4,8 @@
     "name": "wwwision/form-securefileupload",
     "license": "MIT",
     "require": {
-        "neos/form": "^5.0",
-        "wwwision/privateresources": "^6.0"
+        "neos/form": "^4.3 || ^5.0",
+        "wwwision/privateresources": "^3.3 || ^4.0 || ^5.0 || ^6.0"
     },
     "autoload": {
         "psr-4": {
